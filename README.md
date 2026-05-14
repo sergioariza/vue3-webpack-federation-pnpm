@@ -30,10 +30,9 @@ shared packages (@my/ui, utils)
 
 ## 📦 Structure
 apps/
-├─ host-app/ # Shell application
-├─ remote-app/ # Microfrontend (exposed module)
-packages/
-└─ ui/ # Shared components library
+- host-app/ # Shell application
+- remote-app/ # Microfrontend (exposed module)
+- packages/ui/ # Shared components library
 
 ---
 
@@ -59,4 +58,5 @@ pnpm dev
 
 ## This runs:
 Host → http://localhost:3000
+
 Remote → http://localhost:3001
