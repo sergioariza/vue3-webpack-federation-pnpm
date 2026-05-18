@@ -20,20 +20,23 @@ It includes:
 ---
 
 ## 🏗️ Architecture
+```
 host-app
 ↓
 remote-app(s)
 ↓
 shared packages (@my/ui, utils)
-
+```
 ---
 
 ## 📦 Structure
+```
 apps/
-- host-app/ # Shell application
-- remote-app/ # Microfrontend (exposed module)
-- packages/ui/ # Shared components library
-
+├── host-app/ # Shell application
+└── remote-app/ # Microfrontend (exposed module)
+packages
+└── ui/ # Shared components library
+```
 ---
 
 ## ⚙️ Tech Stack
